@@ -1,0 +1,47 @@
+.heading1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.heading2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.buttonV {
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  background-color: $blue;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+
+  &:hover {
+    background-color: $darkBlue;
+  }
+}
+
+#buttonVIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.inputV1,
+.dropdownV1 {
+  font-size: inherit;
+  font-weight: inherit;
+  color: $dark;
+  border: 1px solid $dark;
+  border-radius: 5px;
+  padding: 0.25rem 1rem;
+  outline: none;
+
+  &::placeholder {
+    color: #afafaf;
+  }
+
+  &:hover {
+    border-color: $blue;
+  }
+}

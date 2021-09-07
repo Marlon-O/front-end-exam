@@ -1,0 +1,162 @@
+.main-content {
+  .container {
+    .design2-section1 {
+      height: auto;
+      padding-top: 3rem;
+
+      .sub-heading1 {
+        font-weight: inherit;
+      }
+
+      .table-container {
+        width: 100%;
+        table {
+          width: 90%;
+          margin: 2rem;
+          height: auto;
+          border-collapse: collapse;
+
+          thead {
+            background-color: $blue;
+            color: white;
+            text-align: left;
+            border: none !important;
+            tr {
+              border: none !important;
+              th {
+                padding: 1rem;
+                font-weight: inherit;
+                font-size: 1.2rem;
+
+                &:first-child {
+                  border-radius: 10px 0 0 0;
+                }
+
+                &:last-child {
+                  border-radius: 0 10px 0 0;
+                }
+              }
+            }
+          }
+
+          thead,
+          tr,
+          td {
+            border: 2px solid $blue;
+          }
+
+          tbody {
+            tr {
+              td {
+                padding: 1rem 2rem;
+                img {
+                  width: 100%;
+                  height: 150px;
+                  margin: 0 auto;
+                }
+                h1 {
+                  color: $blue;
+                  font-weight: inherit;
+                }
+
+                button {
+                  display: block;
+                  padding: 0.5rem 1rem;
+                  width: 50%;
+                  margin: 0.5rem auto;
+
+                  &:nth-child(3) {
+                    width: 75%;
+                  }
+                }
+
+                ul {
+                  width: 75%;
+                  margin: 0 auto;
+                  padding: 0;
+                  li {
+                    color: $dark;
+                    i {
+                      color: #ff0000;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .design2-section2 {
+    height: auto;
+    background-color: $lightGreen;
+    .container {
+      padding: 3rem 20px;
+
+      .content-container {
+        margin-top: 1rem;
+        width: 90%;
+        margin-left: 2rem;
+
+        .content {
+          display: flex;
+          justify-content: space-around;
+          margin-bottom: 0.5rem;
+
+          button {
+            padding: 0.5rem 1rem;
+            width: 150px;
+            color: #fff;
+          }
+        }
+
+        .content:first-child {
+          h2 {
+            color: $darkBlue;
+            font-weight: inherit;
+            margin-left: 6rem;
+          }
+        }
+
+        .content:not(:first-child) {
+          background-color: #fff;
+          color: $dark;
+          padding: 0.75rem 1rem;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+
+  .design2-section3 {
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .overlay {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: inherit;
+      background-color: rgba(32, 130, 206, 0.6);
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
